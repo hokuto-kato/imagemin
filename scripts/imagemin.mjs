@@ -43,11 +43,16 @@ const ENCODER_OPTIONS = {
     palette: true,
   },
   jpg: {
-    quality: 60,
+    quality: 90,
   },
   webp: {
-    quality: 80,
-  },
+    png: {
+      lossless: true
+    },
+    jpg: {
+      quality: 90
+    }
+  }
 }
 
 /**
